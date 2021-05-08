@@ -4,3 +4,25 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body{
+    background: #000;
+}
+
+/* NAVBAR */
+.navbar{
+    background: #008b8b;
+    /*opacity: 0.5;*/
+}
+.navbar svg{
+    margin-left: 1em;
+    width: 2em;
+    height: 2em;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+
+/* HEADER */
+.carousel-inner{
+    height: 40em;
+}
