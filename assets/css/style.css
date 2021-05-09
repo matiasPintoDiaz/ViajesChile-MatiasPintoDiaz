@@ -12,15 +12,21 @@ body{
 /* NAVBAR */
 .navbar{
     background: #008b8b;
-    /*opacity: 0.5;*/
+    opacity: 0.8;
 }
 .navbar svg{
     margin-left: 1em;
     width: 2em;
     height: 2em;
 }
+.navbar a{
+    color: #fff !important;
+}
 .navbar-nav{
     margin-left: auto;
+}
+.navbar-nav a{
+    color: #fff !important;
 }
 
 /* HEADER */
@@ -37,6 +43,7 @@ body{
 /* TITULOS SECCIONES */
 .titulo{
     text-align: center;
+    margin-top: 2em;
 }
 .hr{
     border-color: #008b8b;
@@ -63,8 +70,29 @@ body{
 }
 
 /* SECTION CONTACTO */
+.formulario{
+    text-align: center;
+}
 
 /* FOOTER */
+.footer{
+    background: #008b8b;
+    text-align: center;
+}
+.titulo-footer{
+    display: inline-block;
+}
+.iconos-footer{
+    display: inline-block;
+}
+.footer div a i{
+    width: 2em;
+    height: 2em;
+    color: #fff;
+}
+.foot{
+    padding-top: 1em;
+}
 
 
 /* MEDIA QUERIES */

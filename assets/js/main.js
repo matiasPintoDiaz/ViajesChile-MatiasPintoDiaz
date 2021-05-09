@@ -5,11 +5,10 @@ $(document).ready(function(){
 
         var seccion = this.hash;
 
-        $("html").animate(
-            {
-                scrollTop: $(seccion).offset().top - 66,
+        $("html").animate({
+                scrollTop: $(seccion).offset().top - 75
             },
-            800
-        )
+            800,
+        );
     });
 });
