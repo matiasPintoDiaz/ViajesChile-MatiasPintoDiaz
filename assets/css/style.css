@@ -6,6 +6,7 @@
 }
 body{
     background: #000;
+    color: #fff;
 }
 
 /* NAVBAR */
@@ -24,5 +25,48 @@ body{
 
 /* HEADER */
 .carousel-inner{
-    height: 40em;
+    height: auto;
+}
+.carousel-item img{
+    height: auto;
+}
+.header{
+    margin-bottom: 5em;
+}
+
+/* TITULOS SECCIONES */
+.titulo{
+    text-align: center;
+}
+.hr{
+    border-color: #008b8b;
+}
+
+/* SECTION QUIENES SOMOS */
+.icono{
+    background: #008b8b;
+    text-align: center;
+}
+.quienes-somos{
+    margin-bottom: 5em;
+}
+
+/* SECTION DESTACADOS */
+.destacados{
+    margin-bottom: 5em;
+}
+.card{
+    display: inline-block;
+}
+
+/* SECTION CONTACTO */
+
+/* FOOTER */
+
+
+/* MEDIA QUERIES */
+@media(max-width: 540px){
+    .quienes-somos{
+        display: none;
+    }
 }
