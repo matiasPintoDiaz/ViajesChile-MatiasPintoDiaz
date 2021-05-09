@@ -57,6 +57,9 @@ body{
 }
 .card{
     display: inline-block;
+    background: #008b8b;
+    margin-right: 1em;
+    margin-bottom: 1em;
 }
 
 /* SECTION CONTACTO */
