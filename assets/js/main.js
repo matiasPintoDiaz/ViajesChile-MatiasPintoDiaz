@@ -11,4 +11,14 @@ $(document).ready(function(){
             800,
         );
     });
+
+    //Acción de enviar correo
+    $('#enviarCorreo').click(function(){
+        alert("El correo fue enviado correctamente...")
+    });
+});
+
+//Se habilita la acción de tooltip
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
 });

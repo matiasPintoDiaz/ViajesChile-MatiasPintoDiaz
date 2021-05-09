@@ -68,6 +68,9 @@ body{
     margin-right: 1em;
     margin-bottom: 1em;
 }
+.boton-informacion{
+    text-align: center;
+}
 
 /* SECTION CONTACTO */
 .formulario{
